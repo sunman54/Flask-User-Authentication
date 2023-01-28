@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Note</th>
+    </tr>
+    {% for i in values %}
+    <tr>
+        <td>{{i.name}}</td>
+        <td>{{i.note}}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
